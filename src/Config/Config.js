@@ -1,5 +1,5 @@
 export const config = {
-  base_URL: "http://api.weatherapi.com/v1",
+  base_URL: "https://api.weatherapi.com/v1",
   api_key: "c180cc1bafe4410d9ed70403232611",
   _city: null,
   get city() {
