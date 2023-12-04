@@ -1,9 +1,7 @@
 import React from "react";
 // import { config } from "./Config/Config";
-import Title from "./Components/Title/Title";
-import Form from "./Components/Form/Form";
 import ContextProvider from "./Context/ContextProvider";
-
+import Wrapper from "./Components/Wrapper/Wrapper";
 
 function App() {
   // console.log(config.get_URLS.get_current("shiraz", "yes"));
@@ -12,10 +10,7 @@ function App() {
   // console.log(config.get_URLS.get_astronomy("shiraz", "2023-11-26"));
   return (
     <ContextProvider>
-      <div className="container mx-auto px-2">
-        <Title />
-        <Form />
-      </div>
+      <Wrapper />
     </ContextProvider>
   );
 }
