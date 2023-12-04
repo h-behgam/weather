@@ -4,6 +4,6 @@
 
 @layer base {
   #root {
-    @apply bg-[url('/src/Assets/Images/background.jpg')] h-screen bg-cover;
+    @apply bg-[url('/src/Assets/Images/background.jpg')] bg-bottom bg-cover min-h-screen;
   }
 }
