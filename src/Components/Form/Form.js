@@ -11,7 +11,7 @@ function Form() {
     request(config.get_URLS.get_current(city, "yes"));
   };
   return (
-    <form className="sm:w-2/3 w-full py-10 mx-auto" onSubmit={submitHandler}>
+    <form className="lg:w-5/6 xl:w-5/6 2xl:w-4/6 py-5 sm:py-10 mx-auto" onSubmit={submitHandler}>
       <div>
         <label htmlFor="city"></label>
         <input
